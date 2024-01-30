@@ -8,89 +8,79 @@
 </head>
 
 <body>
-    <header>
-        <h1>CONSULTAS</h1>
-        <hr>
-        <h2>DATOS PERSONALES</h2>
-    </header>
+    <form>
+        <table border="0">
+            <h1>CONSULTAS</h1>
+            <hr>
+            <h2>DATOS PERSONALES</h2>
 
+            <tr>
+                <th>
+                    <input type="text" name="name" class="name" id="name" placeholder="NOMBRES">
+                    <input type="text" name="name" class="name" id="name" placeholder="APELLIDOS">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" name="name" id="name" placeholder="DNI">
+                    <input type="text" name="name" class="name" id="name" placeholder="TELEFONO">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" name="name" class="name" id="name" placeholder="CELULAR">
+                    <input type="text" name="name" class="name" id="name" placeholder="EMAIL">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" name="name" class="name" id="name" placeholder="DIRECCION">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <select name="nombres" id="lang">
+                        <option value="">DEPARTAMENTO</option>
+                        <option value="LIMA">LIMA</option>
+                        <option value="NORTE">NORTE</option>
+                        <option value="CENTRO">CENTRO</option>
+                        <option value="SUR">SUR</option>
+                    </select>
 
-    <table border="0">
+                    <select>
+                        <option value="">CONSECIONARIO</option>
+                    </select>
 
-        <tr>
-            <th>
-                <input type="text" name="name" class="name" id="name" placeholder="NOMBRES">
-                <input type="text" name="name" class="name" id="name" placeholder="APELLIDOS">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <input type="text" name="name" id="name" placeholder="DNI">
-                <input type="text" name="name" class="name" id="name" placeholder="TELEFONO">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <input type="text" name="name" class="name" id="name" placeholder="CELULAR">
-                <input type="text" name="name" class="name" id="name" placeholder="EMAIL">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <input type="text" name="name" class="name" id="name" placeholder="DIRECCION">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <select name="nombres" id="lang">
-                    <option value="">DEPARTAMENTO</option>
-                    <option value="LIMA">LIMA</option>
-                    <option value="NORTE">NORTE</option>
-                    <option value="CENTRO">CENTRO</option>
-                    <option value="SUR">SUR</option>
-                </select>
+                    <select>
+                        <option value="">MODELO</option>
+                        <option value="UNO">UNO</option>
+                        <option value="DOS">DOS</option>
+                        <option value="TRES">TRES</option>
+                        <option value="CUATRO">CUATRO</option>
+                        <option value="CINCO">CINCO</option>
 
-                <select>
-                    <option value="">CONSECIONARIO</option>
-                </select>
+                    </select>
+                </th>
+            <tr>
+                <th align="left">
+                    <textarea name="textarea" id="textarea" rows="5" cols="45" placeholder="MENSAJE"></textarea>
+                </th>
+            <tr>
+                <th align="right">
+                    <label for="name">Acepto los Terminos y Condiciones</label>
+                    <input type="checkbox" id="name" name="name">
+                </th>
 
-                <select>
-                    <option value="">MODELO</option>
-                    <option value="UNO">UNO</option>
-                    <option value="DOS">DOS</option>
-                    <option value="TRES">TRES</option>
-                    <option value="CUATRO">CUATRO</option>
-                    <option value="CINCO">CINCO</option>
+            <tr>
+                <th align="right">
+                    <button style="background-color: red;">BORRAR</button>
+                    <button style="background-color: red;">ENVIAR</button>
+                </th>
 
-                </select>
-            </th>
-        <tr>
-            <th align="left">
-                <textarea name="textarea" id="textarea" rows="5" cols="45" placeholder="MENSAJE"></textarea>
-            </th>
-        <tr>
-            <th align="right">
-                <label for="name">Acepto los Terminos y Condiciones</label>
-                <input type="checkbox" id="name" name="name">
-            </th>
-
-        <tr>
-            <th align="right">
-                <button style="background-color: red;">BORRAR</button>
-                <button style="background-color: red;">ENVIAR</button>
-            </th>
-
-        </tr>
-        </tr>
-
-        </tr>
-
-        </tr>
-
-
-
-    </table>
-
+            </tr>
+            </tr>
+        </table>
+    </form>
 </body>
 
 </html>
